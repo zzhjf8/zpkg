@@ -1,4 +1,4 @@
-# zpkg
+# ZPKG
 An automation tool to install packages on linux systems. My first CLI tool.
 
 # Installation guide
@@ -37,9 +37,11 @@ You will have to input your desired packages formatted with comma seperaton. For
 
 Run the Install Packages option and input the path of your file. It should detect the package manager and install the packages from the file.
 
-An example install install file is inside this github repo which you can see how the install file is formatted.
+An example install.zpkg file is inside this github repo which you can see how the install file is formatted, as well as test it within the script.
 
 ## [WARNING] There may be errors in this script as it is my first tool. 
+
+Tested on: Fedora 42 | Status: Working ✅
 
 
 
