@@ -74,8 +74,6 @@ def installpkg(): # function to install packages
         print(f"{URG} Please enter the path of the {Fore.CYAN}{Style.BRIGHT}.zpkg{Style.RESET_ALL} list.")
         try:
             PKGLIST = Path(input(Fore.BLUE + Style.BRIGHT + "Z> " + Style.RESET_ALL)) # input zpkg file path
-            if PKGLIST == "." or ".." or "...":
-                raise IsADirectoryError
         except IsADirectoryError:
             print(f"{NEG} Path is a directory, not a zpkg file.")
             time.sleep(2)
